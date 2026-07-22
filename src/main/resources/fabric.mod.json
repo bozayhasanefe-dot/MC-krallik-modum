@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "turkkrallik",
+  "version": "1.0.0",
+  "name": "Turk Krallik Modu",
+  "description": "Sinirsiz nufus, kislalar ve krallik kurma modu!",
+  "authors": [
+    "Hasan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/turkkrallik/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.turkkrallik.TurkKrallikModu"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
